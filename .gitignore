@@ -1,3 +1,7 @@
 # The directory NPM downloads your dependencies sources to.
 #/music_controller/frontend/node_modules
+<<<<<<< HEAD
 **/node_modules
+=======
+**/node_modules
+>>>>>>> 5117822f067a5e2fb98d46e1aa8e8be10b7f976b
