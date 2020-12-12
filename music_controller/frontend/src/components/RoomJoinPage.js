@@ -59,7 +59,6 @@ export default class RoomJoinPage extends Component {
   }
 
   handleTextFieldChange(e) {
-    console.log(11)
     this.setState({
       roomCode: e.target.value,
       error: ""
@@ -78,7 +77,6 @@ export default class RoomJoinPage extends Component {
     .then((response) =>
       response.json())
     .then((data) => {
-      console.log(data)
       if (data.message == "Room Joined!") {
         this.props.history.push(`/room/${this.state.roomCode}`)
       } else {
